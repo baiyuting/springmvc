@@ -17,7 +17,7 @@ public class CommodityDAOImpl implements ICommodityDAO {
     private PreparedStatement pstmt ;
 
     public CommodityDAOImpl() {
-        DatabaseConnection.get();
+        conn = DatabaseConnection.get();
     }
 
     @Override
@@ -50,8 +50,8 @@ public class CommodityDAOImpl implements ICommodityDAO {
         pstmt = conn.prepareStatement(sql);
         pstmt.setString(1, vo.getName());
         pstmt.setDouble(2, vo.getPrice());
-        pstmt.setInt(3, vo.getId());
         pstmt.setInt(3, vo.getFlag());
+        pstmt.setInt(4, vo.getId());
         int result = pstmt.executeUpdate();
         return result == 1;
     }
@@ -68,7 +68,7 @@ public class CommodityDAOImpl implements ICommodityDAO {
     @Override
     public List<Commodity> queryAll(Integer currentPage, Integer lineSize) throws SQLException {
         List<Commodity> all = new ArrayList<Commodity>();
-        String sql = "SELECT id,name,price,flag from commodity LIMIT ?,?";
+        String sql = "SELECT id,name,price,flag from commodity where flag!=4 LIMIT ?,?";
         pstmt = conn.prepareStatement(sql);
         pstmt.setInt(1, (currentPage - 1) * lineSize);
         pstmt.setInt(2, lineSize);
@@ -83,7 +83,7 @@ public class CommodityDAOImpl implements ICommodityDAO {
     @Override
     public List<Commodity> queryAllByColumn(String column, String keyWord, Integer currentPage, Integer lineSize) throws SQLException {
         List<Commodity> all = new ArrayList<Commodity>();
-        String sql = "SELECT id,name,price,flag from commodity where " + column + " LIKE ? LIMIT ?,?";
+        String sql = "SELECT id,name,price,flag from commodity where flag!=4 and " + column + " LIKE ? LIMIT ?,?";
         pstmt = conn.prepareStatement(sql);
         pstmt.setString(1, "%" + keyWord + "%");
         pstmt.setInt(2, (currentPage - 1) * lineSize);

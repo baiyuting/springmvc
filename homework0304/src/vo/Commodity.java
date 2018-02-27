@@ -62,4 +62,14 @@ public class Commodity implements Serializable {
     public void setFlag(Integer flag) {
         this.flag = flag;
     }
+
+    @Override
+    public String toString() {
+        return "Commodity{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                ", flag=" + flag +
+                '}';
+    }
 }
