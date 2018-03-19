@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="jstl-1.2">
     <CLASSES>
-      <root url="jar://D:/BaiduNetdiskDownload/【51CTO】JSP程序开发/jstl-1.2.jar!/" />
+      <root url="jar://$USER_HOME$/lib-dev/taglibs-standard-impl-1.2.5.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
