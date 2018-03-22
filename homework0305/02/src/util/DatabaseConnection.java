@@ -9,7 +9,7 @@ public class DatabaseConnection {
 	private static final String DBDRIVER = "org.gjt.mm.mysql.Driver" ;
 	private static final String DBURL = "jdbc:mysql://localhost:3306/test" ;
 	private static final String DBUSER = "root" ;
-	private static final String PASSWORD = "1234" ;
+	private static final String PASSWORD = "" ;
 	public static void close() {
 		Connection conn = threadLocal.get() ;
 		if (conn != null) {
