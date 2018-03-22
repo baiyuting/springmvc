@@ -5,7 +5,7 @@ window.onload = function () {	// 在页面加载之后进行动态事件绑定
     document.getElementById("title").value = window.opener.document.getElementById(newsId + "title").innerHTML;
     document.getElementById("keyword").value = window.opener.document.getElementById(newsId + "keyword").innerHTML;
     document.getElementById("content").value = window.opener.document.getElementById(newsId + "content").innerHTML;
-    document.getElementById("auditStatus").value = window.opener.document.getElementById(newsId + "content").innerHTML;
+    document.getElementById("auditStatus").value = window.opener.document.getElementById(newsId + "auditStatus").innerHTML;
     document.getElementById("auditFailReason").innerHTML = window.opener.document.getElementById(newsId + "auditFailReason").innerHTML;
 
     document.getElementById("editForm").addEventListener("submit", function (e) {
