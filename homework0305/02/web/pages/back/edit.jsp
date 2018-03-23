@@ -13,7 +13,7 @@
     <script type="text/javascript" src="/js/back/edit.js"></script>
 </head>
 <body>
-<form action="/edit" method="post" id="editForm">
+<div>
     <input type="hidden" id="newsId" name="newsId" value="${param.newsId}">
     标题：<input type="text" id="title" name="title" readonly><br>
     关键词：<input type="text" id="keyword" name="keyword" readonly><br>
@@ -25,8 +25,8 @@
     </select><br>
     审核失败原因：
     <textarea id="auditFailReason" name="auditFailReason"></textarea><br>
-    <button type="submit">提交</button>
-</form>
+    <button id="button" name="button">提交</button>
+</div>
 
 </body>
 </html>

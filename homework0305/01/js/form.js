@@ -12,14 +12,16 @@ window.onload = function () {	// 在页面加载之后进行动态事件绑定
         return validateCity();
     }, false);
 
-    document.getElementById("test").addEventListener("click", function () {
-        return validateHabbit();
-    }, false);
+    // document.getElementById("test").addEventListener("click", function () {
+    //     return validateHabbit();
+    // }, false);
 
     document.getElementById("loginForm").addEventListener("submit", function (e) {
         if (validateEmail() && validateConf() && validateCity() && validateHabbit()) {
+            // alert("validateEmail:" + validateEmail() + ";validateConf:" + validateConf() + ";validateCity" + validateCity() + ";validateHabbit:" + validateHabbit());
             this.submit();	// 当前元素提交表单	
         } else {
+            // alert("formstop");
             formStop(e);
         }
     }, false);
@@ -34,7 +36,7 @@ function validateEmail() {
         return false;
     } else {	// 输入正确，理论上可以进行提交
         if (/^\w+@\w+\.\w+$/.test(emailObj.value) || /^\d{11}$/.test(emailObj.value)) {
-            return true;	
+            return true;
         } else {	// 验证不通过
             alert("请输入合法的EMAIL地址或者手机号！");
             return false;
@@ -62,7 +64,7 @@ function validateHabbit() {
     for (let index = 0; index < habbits.length; index++) {
         var element = habbits[index];
         if (element.checked) {
-            count ++;
+            count++;
         }
     }
     if (count < 2) {

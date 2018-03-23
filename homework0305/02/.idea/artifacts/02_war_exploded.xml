@@ -11,7 +11,6 @@
           <element id="library" level="project" name="jstl-1.2" />
           <element id="library" level="module" name="JUnit4" module-name="02" />
           <element id="library" level="project" name="mysql-connector-java-5.0.4-bin" />
-          <element id="library" level="application" name="taglibs-standard-impl-1.2.5" />
         </element>
       </element>
     </root>
