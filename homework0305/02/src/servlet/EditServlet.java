@@ -35,7 +35,7 @@ public class EditServlet extends HttpServlet {
                 e.printStackTrace();
             }
         }
-        request.getRequestDispatcher("/list?currentPage=1&lineSize=2&auditStatus=0").forward(request, response);
+        response.getWriter().print("success");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

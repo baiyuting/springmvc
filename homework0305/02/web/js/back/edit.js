@@ -9,7 +9,6 @@ window.onload = function () {	// 在页面加载之后进行动态事件绑定
     document.getElementById("auditFailReason").innerHTML = window.opener.document.getElementById(newsId + "auditFailReason").innerHTML;
 
     document.getElementById("button").addEventListener("click", function () {
-        alert("hi");
         var xmlhttp;
         if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
             xmlhttp = new XMLHttpRequest();
@@ -19,19 +18,18 @@ window.onload = function () {	// 在页面加载之后进行动态事件绑定
         }
         xmlhttp.onreadystatechange = function () {
             if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-                // window.opener.location.reload();
-                // window.close();//关闭窗口
-                alert(xmlhttp.responseText);
+                window.opener.location.reload();
+                window.close();//关闭窗口
             }
         }
         var title = document.getElementById("title").value;
         var keyword = document.getElementById("keyword").value;
         var content = document.getElementById("content").value;
         var auditStatus = document.getElementById("auditStatus").value;
-        var auditFailReason = document.getElementById("auditFailReason").innerHTML;
+        var auditFailReason = document.getElementById("auditFailReason").value;
         xmlhttp.open("POST", "/edit", true);
         xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-        xmlhttp.send("newsId="+newsId+"&auditStatus="+auditStatus+"&auditFailReason="+auditFailReason);
+        xmlhttp.send("newsId=" + newsId + "&auditStatus=" + auditStatus + "&auditFailReason=" + auditFailReason);
     }, false);
 
 
