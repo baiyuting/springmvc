@@ -24,10 +24,10 @@
     </c:forEach>
 </c:forEach>
 <c:if test="${pageNo > 1}">
-    <a>上一页</a>
+    <a href="/list?pageNo=${pageNo-1}&pageSize=${pageSize}">上一页</a>
 </c:if>
 <c:if test="${pageNo * pageSize < total}">
-    <a>下一页</a>
+    <a href="/list?pageNo=${pageNo+1}&pageSize=${pageSize}">下一页</a>
 </c:if>
 </body>
 </html>

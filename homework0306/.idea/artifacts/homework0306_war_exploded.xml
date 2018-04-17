@@ -18,6 +18,11 @@
           <element id="file-copy" path="$PROJECT_DIR$/../homework0305/02/lib/javax.transaction.jar" />
           <element id="file-copy" path="D:/软件安装包/mysql-connector/mysql-connector-java-5.1.7-bin.jar" />
           <element id="file-copy" path="D:/myeclipse_workspace/springmvc1215_2/WebRoot/WEB-INF/lib/jstl-1.2.jar" />
+          <element id="library" level="module" name="JUnit4" module-name="homework0306" />
+          <element id="library" level="project" name="standard-1.1.2" />
+          <element id="file-copy" path="$PROJECT_DIR$/../homework0305/02/lib/jstl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../homework0305/02/lib/standard.jar" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.6-bin" />
         </element>
       </element>
     </root>
