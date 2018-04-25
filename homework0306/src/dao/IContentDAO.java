@@ -31,4 +31,12 @@ public interface IContentDAO {
      */
     Integer count() throws SQLException;
 
+    /**
+     * 通过图片获取 content 信息
+     *
+     * @param img
+     * @return
+     */
+    Content findByImg(String img) throws SQLException;
+
 }

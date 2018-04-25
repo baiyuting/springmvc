@@ -10,18 +10,24 @@
 <html>
 <head>
     <title>Title</title>
+    <script type="text/javascript" src="/js/list.js"></script>
 </head>
 <body>
+<c:if test="${user.grade==1}">
+    <a href="/pages/add.jsp">添加按钮</a>
+</c:if>
 <c:forEach items="${list}" var="item">
-    <div>
-            ${item.content.content}
+    <div id="${item.content.id}">
+        <div>
+                ${item.content.content}
+        </div>
+        <div>
+            <img src="${item.content.img}">
+        </div>
+        <c:forEach items="${item.itemDTOS}" var="dto">
+            <input type="checkbox" value="${dto.voted}" onchange="haveVoted(event, ${dto.voted}, ${dto.id})">${dto.item}<br>
+        </c:forEach>
     </div>
-    <div>
-            ${item.content.img}
-    </div>
-    <c:forEach items="${item.itemDTOS}" var="dto">
-        ${dto.item}
-    </c:forEach>
 </c:forEach>
 <c:if test="${pageNo > 1}">
     <a href="/list?pageNo=${pageNo-1}&pageSize=${pageSize}">上一页</a>

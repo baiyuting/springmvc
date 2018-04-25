@@ -47,6 +47,14 @@ public class ItemDTO {
         this.item = item;
     }
 
+    public Integer getVoted() {
+        return voted;
+    }
+
+    public void setVoted(Integer voted) {
+        this.voted = voted;
+    }
+
     @Override
     public String toString() {
         return "ItemDTO{" +

@@ -2,6 +2,7 @@ package service;
 
 import dto.VoteInfoDTO;
 
+import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 
@@ -23,4 +24,18 @@ public interface IVoteService {
      * @return
      */
     Integer count() throws SQLException;
+
+    /**
+     * 添加投票信息
+     *
+     * @return
+     */
+    void addVoteInfo(String img, String content, String items) throws SQLException, IOException;
+
+    /**
+     * 用户投票
+     *
+     * @return
+     */
+    Integer addVotedItem(Integer userId, Integer itemId) throws SQLException;
 }

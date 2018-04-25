@@ -31,4 +31,15 @@ public class UserDAOImplTest {
 
         System.out.println(Integer.parseInt("001"));
     }
+
+    @Test
+    public void add2() throws SQLException {
+        User user = new User();
+        user.setGrade(0);
+        user.setPassword(PasswordUtil.getPassword("123"));
+
+        DAOFactory.getInstance(UserDAOImpl.class).add(user);
+        System.out.println(user);
+        DatabaseConnection.close();
+    }
 }

@@ -11,6 +11,15 @@ public class Item implements Serializable {
     public Item() {
     }
 
+    public Item(String item) {
+        this.item = item;
+    }
+
+    public Item(Integer contentId, String item) {
+        this.contentId = contentId;
+        this.item = item;
+    }
+
     public Item(Integer id, Integer contentId, String item) {
         this.id = id;
         this.contentId = contentId;

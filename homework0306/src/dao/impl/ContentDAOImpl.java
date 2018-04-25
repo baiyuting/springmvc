@@ -60,4 +60,16 @@ public class ContentDAOImpl implements IContentDAO {
             total = resultSet.getInt(1);
         return total;
     }
+
+    @Override
+    public Content findByImg(String img) throws SQLException {
+        Content content = null;
+        String sql = "select id,content,img from content where img=?";
+        pstmt = conn.prepareStatement(sql);
+        pstmt.setString(1, img);
+        ResultSet resultSet = pstmt.executeQuery();
+        while (resultSet.next())
+            content = new Content(resultSet.getInt(1), resultSet.getString(2), resultSet.getString(3));
+        return content;
+    }
 }

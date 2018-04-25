@@ -17,6 +17,7 @@
     id int auto_increment 主键
     content varchar(255) not null default ''
     img varchar(255) not null default ''
+    img 添加索引
     列表(content+item)、统计总数、添加#
 
 投票项 item

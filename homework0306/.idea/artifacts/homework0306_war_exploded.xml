@@ -23,6 +23,7 @@
           <element id="file-copy" path="$PROJECT_DIR$/../homework0305/02/lib/jstl.jar" />
           <element id="file-copy" path="$PROJECT_DIR$/../homework0305/02/lib/standard.jar" />
           <element id="library" level="project" name="mysql-connector-java-5.1.6-bin" />
+          <element id="library" level="project" name="SmartUpload" />
         </element>
       </element>
     </root>

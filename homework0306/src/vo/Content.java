@@ -11,6 +11,11 @@ public class Content implements Serializable {
     public Content() {
     }
 
+    public Content(String content, String img) {
+        this.content = content;
+        this.img = img;
+    }
+
     public Content(Integer id, String content, String img) {
         this.id = id;
         this.content = content;
