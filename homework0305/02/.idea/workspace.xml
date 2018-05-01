@@ -7,52 +7,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9679d042-3fc3-42e0-8509-b960581921cd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/.idea/artifacts/01_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/.idea/libraries/fastjson_1_2_47.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/.idea/libraries/javax_annotation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/.idea/libraries/mysql_connector_java_5_1_6_bin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/lib/SmartUpload.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/lib/fastjson-1.2.47.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/lib/javax.annotation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/lib/javax.ejb.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/lib/javax.jms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/lib/javax.persistence.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/lib/javax.resource.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/lib/javax.servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/lib/javax.servlet.jsp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/lib/javax.transaction.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/lib/jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/lib/mysql-connector-java-5.1.6-bin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/lib/standard.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/sql/project.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/dao/IMenuDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/dao/impl/MenuDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/factory/DAOFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/factory/ServiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/proxy/ServiceProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/service/IMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/service/impl/MenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/servlet/MenuServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/test/dao/MenuDAOImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/test/json/test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/test/service/ServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/util/DatabaseConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/util/MD5Code.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/util/PasswordUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/vo/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/方案" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0308/01/web/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework03/.idea/artifacts/homework03_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework03/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework03/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework03/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework03/homework03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework03/lib/SmartUpload.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework03/lib/fastjson-1.2.47.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework03/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework03/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework03/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework03/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework03/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework03/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework03/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework03/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework03/lib/jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework03/lib/mysql-connector-java-5.1.6-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework03/lib/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework03/sql/project.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework03/src/factory/DAOFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework03/src/factory/ServiceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework03/src/proxy/ServiceProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework03/src/util/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework03/src/util/MD5Code.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework03/src/util/PasswordUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework03/src/方案" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework03/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework03/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/.idea/artifacts/02_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/.idea/libraries/javax_servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/lib/SmartUpload.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/lib/fastjson-1.2.47.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/lib/jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/lib/mysql-connector-java-5.1.6-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/lib/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/sql/project.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/src/factory/DAOFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/src/factory/ServiceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/src/proxy/ServiceProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/src/util/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/src/util/MD5Code.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/src/util/PasswordUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/src/vo/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/src/方案" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/02/web/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../homework0306/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/out/artifacts/homework0306_war_exploded/WEB-INF/classes/vo/Vote.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/out/artifacts/homework0306_war_exploded/WEB-INF/classes/vo/Vote.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/out/production/homework0306/vo/Vote.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/out/production/homework0306/vo/Vote.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,8 +92,8 @@
       <file leaf-file-name="edit.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/js/back/edit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            <state relative-caret-position="285">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -140,7 +156,7 @@
         <entry file="file://$PROJECT_DIR$/web/pages/back/edit.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -224,9 +240,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -258,50 +274,17 @@
             <path>
               <item name="02" type="b2602c69:ProjectViewProjectNode" />
               <item name="02" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="02" type="b2602c69:ProjectViewProjectNode" />
               <item name="02" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="02" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="02" type="b2602c69:ProjectViewProjectNode" />
               <item name="02" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="02" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="02" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="back" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="02" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="02" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="back" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="02" type="b2602c69:ProjectViewProjectNode" />
@@ -626,7 +609,7 @@
       <workItem from="1524438626038" duration="597000" />
       <workItem from="1524462401566" duration="335000" />
       <workItem from="1524633323649" duration="1220000" />
-      <workItem from="1525145977340" duration="1837000" />
+      <workItem from="1525145977340" duration="2789000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/baiyuting/51cto&#10;&#10;# Conflicts:&#10;#&#9;homework0305/02/.idea/workspace.xml">
       <created>1521682283597</created>
@@ -653,7 +636,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74237000" />
+    <option name="totallyTimeSpent" value="75189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
@@ -1024,7 +1007,7 @@
     <entry file="file://$PROJECT_DIR$/web/pages/back/edit.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1037,8 +1020,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/back/edit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        <state relative-caret-position="285">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
         </state>
       </provider>
     </entry>
