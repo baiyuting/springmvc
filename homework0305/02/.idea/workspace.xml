@@ -7,46 +7,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9679d042-3fc3-42e0-8509-b960581921cd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../../homework0306/.idea/libraries/SmartUpload.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0306/lib/SmartUpload.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0306/src/servlet/AddServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0306/src/servlet/VoteServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0306/web/js/addItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0306/web/js/list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework0306/web/pages/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../01/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/.idea/artifacts/01_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/.idea/libraries/fastjson_1_2_47.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/.idea/libraries/javax_annotation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/.idea/libraries/mysql_connector_java_5_1_6_bin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/lib/SmartUpload.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/lib/fastjson-1.2.47.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/lib/jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/lib/mysql-connector-java-5.1.6-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/lib/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/sql/project.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/dao/IMenuDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/dao/impl/MenuDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/factory/DAOFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/factory/ServiceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/proxy/ServiceProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/service/IMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/service/impl/MenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/servlet/MenuServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/test/dao/MenuDAOImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/test/json/test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/test/service/ServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/util/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/util/MD5Code.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/util/PasswordUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/vo/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/src/方案" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework0308/01/web/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/.idea/artifacts/homework0306_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/.idea/artifacts/homework0306_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../homework0306/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/homework0306.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/homework0306.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/out/artifacts/homework0306_war_exploded/WEB-INF/classes/dao/IContentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/out/artifacts/homework0306_war_exploded/WEB-INF/classes/dao/IContentDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/out/artifacts/homework0306_war_exploded/WEB-INF/classes/dao/impl/ContentDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/out/artifacts/homework0306_war_exploded/WEB-INF/classes/dao/impl/ContentDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/out/artifacts/homework0306_war_exploded/WEB-INF/classes/dto/ItemDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/out/artifacts/homework0306_war_exploded/WEB-INF/classes/dto/ItemDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/out/artifacts/homework0306_war_exploded/WEB-INF/classes/service/IVoteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/out/artifacts/homework0306_war_exploded/WEB-INF/classes/service/IVoteService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/out/artifacts/homework0306_war_exploded/WEB-INF/classes/service/impl/VoteServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/out/artifacts/homework0306_war_exploded/WEB-INF/classes/service/impl/VoteServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/out/artifacts/homework0306_war_exploded/WEB-INF/classes/test/dao/UserDAOImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/out/artifacts/homework0306_war_exploded/WEB-INF/classes/test/dao/UserDAOImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/out/artifacts/homework0306_war_exploded/WEB-INF/classes/vo/Content.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/out/artifacts/homework0306_war_exploded/WEB-INF/classes/vo/Content.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/out/artifacts/homework0306_war_exploded/WEB-INF/classes/vo/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/out/artifacts/homework0306_war_exploded/WEB-INF/classes/vo/Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/out/artifacts/homework0306_war_exploded/pages/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/out/artifacts/homework0306_war_exploded/pages/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/out/production/homework0306/dao/IContentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/out/production/homework0306/dao/IContentDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/out/production/homework0306/dao/impl/ContentDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/out/production/homework0306/dao/impl/ContentDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/out/production/homework0306/dto/ItemDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/out/production/homework0306/dto/ItemDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/out/production/homework0306/service/IVoteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/out/production/homework0306/service/IVoteService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/out/production/homework0306/service/impl/VoteServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/out/production/homework0306/service/impl/VoteServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/out/production/homework0306/test/dao/UserDAOImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/out/production/homework0306/test/dao/UserDAOImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/out/production/homework0306/vo/Content.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/out/production/homework0306/vo/Content.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/out/production/homework0306/vo/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/out/production/homework0306/vo/Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/src/dao/IContentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/src/dao/IContentDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/src/dao/impl/ContentDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/src/dao/impl/ContentDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/src/dto/ItemDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/src/dto/ItemDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/src/service/IVoteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/src/service/IVoteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/src/service/impl/VoteServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/src/service/impl/VoteServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/src/test/dao/UserDAOImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/src/test/dao/UserDAOImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/src/vo/Content.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/src/vo/Content.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/src/vo/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/src/vo/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/src/vo/Vote.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/src/vo/Vote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/web/pages/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/web/pages/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework0306/方案.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/方案.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework0306/out/artifacts/homework0306_war_exploded/WEB-INF/classes/vo/Vote.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/out/artifacts/homework0306_war_exploded/WEB-INF/classes/vo/Vote.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework0306/out/production/homework0306/vo/Vote.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework0306/out/production/homework0306/vo/Vote.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,15 +64,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="list.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/pages/back/list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="add.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/pages/back/add.jsp">
           <provider selected="true" editor-type-id="text-editor">
@@ -76,20 +73,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="edit.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/js/back/edit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+            <state relative-caret-position="380">
+              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EditServlet.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EditServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/servlet/EditServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
-              <caret line="37" column="46" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="46" />
+              <caret line="37" column="46" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/servlet/ListServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="613">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/servlet/LoginServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -124,8 +139,17 @@
       <file leaf-file-name="edit.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/pages/back/edit.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+            <state relative-caret-position="399">
+              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/back/list.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-19">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -199,10 +223,10 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -212,6 +236,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="02" type="58d84e3e:PackageViewProjectNode" />
+              <item name="02" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -277,17 +312,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="02" type="58d84e3e:PackageViewProjectNode" />
-              <item name="02" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -601,7 +625,8 @@
       <workItem from="1524356492743" duration="3338000" />
       <workItem from="1524438626038" duration="597000" />
       <workItem from="1524462401566" duration="335000" />
-      <workItem from="1524633323649" duration="619000" />
+      <workItem from="1524633323649" duration="1220000" />
+      <workItem from="1525145977340" duration="1837000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/baiyuting/51cto&#10;&#10;# Conflicts:&#10;#&#9;homework0305/02/.idea/workspace.xml">
       <created>1521682283597</created>
@@ -628,10 +653,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71799000" />
+    <option name="totallyTimeSpent" value="74237000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -649,8 +674,8 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8245364" visible="true" weight="0.052949063" />
-      <window_info id="Web" order="2" sideWeight="0.17546362" side_tool="true" visible="true" weight="0.052949063" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.82310987" visible="true" weight="0.3324397" />
+      <window_info id="Web" order="2" sideWeight="0.17689015" side_tool="true" visible="true" weight="0.3324397" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -673,13 +698,13 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.30769232" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="2" />
+      <window_info anchor="bottom" id="Messages" order="1" />
       <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49172577" visible="true" weight="0.31436077" />
       <window_info id="Structure" order="7" weight="0.25" />
       <window_info anchor="right" id="Commander" order="6" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
@@ -689,11 +714,11 @@
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.3997833" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info id="Capture Tool" order="0" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Messages" order="1" />
+      <window_info anchor="bottom" id="Java Enterprise" order="2" />
       <window_info anchor="right" id="Maven Projects" order="1" />
       <window_info id="Favorites" order="5" side_tool="true" />
     </layout-to-restore>
@@ -720,13 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/back/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
@@ -947,20 +965,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/ListServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/pages/back/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -972,13 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="32" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/AddServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -996,24 +993,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/EditServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="37" column="46" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/ListServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/AddServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/pages/back/edit.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        <state relative-caret-position="399">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/back/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/back/edit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/EditServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="37" column="46" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="46" />
+        <state relative-caret-position="380">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
         </state>
       </provider>
     </entry>
