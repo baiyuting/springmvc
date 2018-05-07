@@ -25,7 +25,7 @@
             <img src="${item.content.img}">
         </div>
         <c:forEach items="${item.itemDTOS}" var="dto">
-            <input type="checkbox" value="${dto.voted}" onchange="haveVoted(event, ${dto.voted}, ${dto.id})">${dto.item}${dto.voted}<br>
+            <input type="checkbox" value="${dto.voted}" onchange="haveVoted(event, ${dto.voted}, ${dto.id})">${dto.item}<br>
         </c:forEach>
     </div>
 </c:forEach>
