@@ -46,6 +46,7 @@ public class EmpAction {// 完全是一个独立的类
 		mav.setViewName("/forward.jsp");
 		mav.addObject("msg", "天要下雨了");
 		mav.addObject("myemp", emp);
+		System.out.println("EmpAction[Add]*********");
 		return mav;
 	}
 
