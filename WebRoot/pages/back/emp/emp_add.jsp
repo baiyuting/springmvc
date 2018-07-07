@@ -24,7 +24,10 @@
 <body>
 
 <form action="<%=basePath%>/pages/back/emp/add.action" method="post">
+雇员编号：<input type="text" name="empno" id="empno" value="1234"/>
 雇员姓名：<input type="text" name="ename" id="ename" value="smith"/>
+雇员工资：<input type="text" name="salary" id="salary" value="800.0"/>
+雇佣日期：<input type="text" name="hiredate" id="hiredate" value="2018-08-11"/>
 部门名称：<input type="text" name="dept.dname" id="dept.dname" value="财务部"/>
 <input type="submit" value="提交">
 </form>

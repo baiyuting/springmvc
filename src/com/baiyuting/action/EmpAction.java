@@ -30,7 +30,11 @@ import com.baiyuting.vo.Emp;
 public class EmpAction {// 完全是一个独立的类
 
 	@Resource
-	private MessageSource messageSource;
+	private MessageSource messageSource;// 注入资源
+	
+	public String getMessage(String key) {//返回消息
+		return messageSource.getMessage(key, null, Locale.getDefault());
+	}
 
 	@RequestMapping("/test")
 	public ModelAndView test() {
@@ -53,6 +57,7 @@ public class EmpAction {// 完全是一个独立的类
 	@RequestMapping("/upload")
 	public ModelAndView addUpload(Emp emp, MultipartFile photo, HttpServletRequest request) {
 		System.out.println(emp);
+		System.out.println(photo.getOriginalFilename());
 		String fileExt = null;
 		if ("image/jpeg".equals(photo.getContentType())) {
 			fileExt = "jpg";
@@ -156,7 +161,7 @@ public class EmpAction {// 完全是一个独立的类
 
 	@InitBinder
 	public void initBinder(WebDataBinder binder) {// 转换器
-		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");//这个会自动将其转化为 日期时间 类型，在 hiredate 传入的时候会 转成 这个格式，会有问题 
 		// 将自定义的转换编辑器进行配置，如果以后发现有Date类型，使用 sdf 转换并允许数据为null
 		binder.registerCustomEditor(Date.class, new CustomDateEditor(simpleDateFormat, true));
 	}
