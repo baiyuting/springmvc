@@ -26,13 +26,13 @@ import org.springframework.web.servlet.ModelAndView;
 import com.baiyuting.vo.Emp;
 
 @Controller
-@RequestMapping("/pages/back/emp") // ´Ë´¦¶¨ÒåµÄÊÇ¸¸Â·¾¶
-public class EmpAction {// ÍêÈ«ÊÇÒ»¸ö¶ÀÁ¢µÄÀà
+@RequestMapping("/pages/back/emp") // æ­¤å¤„å®šä¹‰çš„æ˜¯çˆ¶è·¯å¾„
+public class EmpAction {// å®Œå…¨æ˜¯ä¸€ä¸ªç‹¬ç«‹çš„ç±»
 
 	@Resource
-	private MessageSource messageSource;// ×¢Èë×ÊÔ´
+	private MessageSource messageSource;// æ³¨å…¥èµ„æº
 	
-	public String getMessage(String key) {//·µ»ØÏûÏ¢
+	public String getMessage(String key) {//è¿”å›æ¶ˆæ¯
 		return messageSource.getMessage(key, null, Locale.getDefault());
 	}
 
@@ -45,10 +45,10 @@ public class EmpAction {// ÍêÈ«ÊÇÒ»¸ö¶ÀÁ¢µÄÀà
 	}
 
 	@RequestMapping("/add")
-	public ModelAndView add(Emp emp) {// ´Ë´¦±íÊ¾½ÓÊÜµÄ²ÎÊıÎª emp ÀàĞÍ
+	public ModelAndView add(Emp emp) {// æ­¤å¤„è¡¨ç¤ºæ¥å—çš„å‚æ•°ä¸º emp ç±»å‹
 		ModelAndView mav = new ModelAndView();
 		mav.setViewName("/forward.jsp");
-		mav.addObject("msg", "ÌìÒªÏÂÓêÁË");
+		mav.addObject("msg", "å¤©è¦ä¸‹é›¨äº†");
 		mav.addObject("myemp", emp);
 		System.out.println("EmpAction[Add]*********");
 		return mav;
@@ -73,16 +73,16 @@ public class EmpAction {// ÍêÈ«ÊÇÒ»¸ö¶ÀÁ¢µÄÀà
 	}
 
 	@ExceptionHandler
-	public ModelAndView exceptionHandle(Exception e) {// ×¨ÃÅ´¦ÀíÒì³£
+	public ModelAndView exceptionHandle(Exception e) {// ä¸“é—¨å¤„ç†å¼‚å¸¸
 		ModelAndView modelAndView = new ModelAndView("/errors.jsp");
 		if (e instanceof MaxUploadSizeExceededException) {
-			modelAndView.addObject("error", "ÎÄ¼şÌ«´óÁË");
+			modelAndView.addObject("error", "æ–‡ä»¶å¤ªå¤§äº†");
 		}
 		return modelAndView;
 	}
 
 	/**
-	 * Îª int ĞÍÊı×Ö±ØĞë´«²ÎÊı£¬²»´«°ü´í
+	 * ä¸º int å‹æ•°å­—å¿…é¡»ä¼ å‚æ•°ï¼Œä¸ä¼ åŒ…é”™
 	 * 
 	 * HTTP Status 500 - Request processing failed; nested exception is
 	 * java.lang.IllegalStateException: Optional int parameter 'empno' is
@@ -100,7 +100,7 @@ public class EmpAction {// ÍêÈ«ÊÇÒ»¸ö¶ÀÁ¢µÄÀà
 	}
 
 	/**
-	 * ÎªÒıÓÃÀàĞÍµÄÊ±ºò empno ¿ÉÒÔ²»´«£¬´ËÊ±Ä¬ÈÏÎª null
+	 * ä¸ºå¼•ç”¨ç±»å‹çš„æ—¶å€™ empno å¯ä»¥ä¸ä¼ ï¼Œæ­¤æ—¶é»˜è®¤ä¸º null
 	 * 
 	 * @param empno
 	 * @return
@@ -118,7 +118,7 @@ public class EmpAction {// ÍêÈ«ÊÇÒ»¸ö¶ÀÁ¢µÄÀà
 	}
 
 	/**
-	 * ¼ÓÉÏ @RequestParam ×¢½â£¬Ä¬ÈÏ±ØĞëÒª´øÉÏ empno ²ÎÊı£¬²»´ø·µ»Ø 400
+	 * åŠ ä¸Š @RequestParam æ³¨è§£ï¼Œé»˜è®¤å¿…é¡»è¦å¸¦ä¸Š empno å‚æ•°ï¼Œä¸å¸¦è¿”å› 400
 	 * 
 	 * HTTP Status 400 - Required String parameter 'empno' is not present
 	 * 
@@ -132,7 +132,7 @@ public class EmpAction {// ÍêÈ«ÊÇÒ»¸ö¶ÀÁ¢µÄÀà
 	}
 
 	/**
-	 * ¼ÓÉÏ @CookieValue ×¢½â£¬²»´ø empno ²ÎÊı£¬·µ»Ø 400
+	 * åŠ ä¸Š @CookieValue æ³¨è§£ï¼Œä¸å¸¦ empno å‚æ•°ï¼Œè¿”å› 400
 	 * 
 	 * HTTP Status 400 -
 	 * 
@@ -146,7 +146,7 @@ public class EmpAction {// ÍêÈ«ÊÇÒ»¸ö¶ÀÁ¢µÄÀà
 	}
 
 	/**
-	 * Ìí¼Ó ÄÚÖÃ¶ÔÏó
+	 * æ·»åŠ  å†…ç½®å¯¹è±¡
 	 * 
 	 * @param empno
 	 * @param request
@@ -160,9 +160,9 @@ public class EmpAction {// ÍêÈ«ÊÇÒ»¸ö¶ÀÁ¢µÄÀà
 	}
 
 	@InitBinder
-	public void initBinder(WebDataBinder binder) {// ×ª»»Æ÷
-		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");//Õâ¸ö»á×Ô¶¯½«Æä×ª»¯Îª ÈÕÆÚÊ±¼ä ÀàĞÍ£¬ÔÚ hiredate ´«ÈëµÄÊ±ºò»á ×ª³É Õâ¸ö¸ñÊ½£¬»áÓĞÎÊÌâ 
-		// ½«×Ô¶¨ÒåµÄ×ª»»±à¼­Æ÷½øĞĞÅäÖÃ£¬Èç¹ûÒÔºó·¢ÏÖÓĞDateÀàĞÍ£¬Ê¹ÓÃ sdf ×ª»»²¢ÔÊĞíÊı¾İÎªnull
+	public void initBinder(WebDataBinder binder) {// è½¬æ¢å™¨
+		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");//è¿™ä¸ªä¼šè‡ªåŠ¨å°†å…¶è½¬åŒ–ä¸º æ—¥æœŸæ—¶é—´ ç±»å‹ï¼Œåœ¨ hiredate ä¼ å…¥çš„æ—¶å€™ä¼š è½¬æˆ è¿™ä¸ªæ ¼å¼ï¼Œä¼šæœ‰é—®é¢˜ 
+		// å°†è‡ªå®šä¹‰çš„è½¬æ¢ç¼–è¾‘å™¨è¿›è¡Œé…ç½®ï¼Œå¦‚æœä»¥åå‘ç°æœ‰Dateç±»å‹ï¼Œä½¿ç”¨ sdf è½¬æ¢å¹¶å…è®¸æ•°æ®ä¸ºnull
 		binder.registerCustomEditor(Date.class, new CustomDateEditor(simpleDateFormat, true));
 	}
 

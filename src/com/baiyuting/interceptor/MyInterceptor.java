@@ -23,33 +23,33 @@ public class MyInterceptor implements HandlerInterceptor {
 		System.out.println("*****************prehandle*************" + handler.getClass());
 
 		HandlerMethod handlerMethod = (HandlerMethod) handler;// HandlerMethod
-		// »ñÈ¡Òª¶ÁÈ¡×ÊÔ´ÎÄ¼şÖĞµÄ key£¬¶ÁÈ¡×ÊÔ´Îª Validators.properties£¬ÄÚÈİ
+		// è·å–è¦è¯»å–èµ„æºæ–‡ä»¶ä¸­çš„ keyï¼Œè¯»å–èµ„æºä¸º Validators.propertiesï¼Œå†…å®¹
 		String validatorKey = handlerMethod.getBeanType().getSimpleName() + "." + handlerMethod.getMethod().getName()
 				+ ".rules";
-		// µ÷ÓÃ·½·¨È¡µÃÑéÖ¤ÄÚÈİ
+		// è°ƒç”¨æ–¹æ³•å–å¾—éªŒè¯å†…å®¹
 		String valueString = MessageUtil.getMessage(handlerMethod.getBean(), validatorKey);
 		// System.out.println("resoled value " + valueString);
 		if (valueString == null || "".equals(valueString)) {
 			return true;
 		}
-		// Õë¶ÔÃ¿Ò»¸ö¾ßÌåµÄ²Ù×÷½øĞĞÑéÖ¤´¦Àí£¬¾ÍĞèÒªÊ¹ÓÃ´ËÑéÖ¤¹æÔò½øĞĞ¾ßÌåµÄ²Ù×÷
+		// é’ˆå¯¹æ¯ä¸€ä¸ªå…·ä½“çš„æ“ä½œè¿›è¡ŒéªŒè¯å¤„ç†ï¼Œå°±éœ€è¦ä½¿ç”¨æ­¤éªŒè¯è§„åˆ™è¿›è¡Œå…·ä½“çš„æ“ä½œ
 		String rules[] = valueString.split("\\|");
 		Map<String, String> result = new ValidatorRules(handlerMethod.getBean(), rules, request).validate();
-		if (result.size() > 0) {// ÓĞ´íÎó
+		if (result.size() > 0) {// æœ‰é”™è¯¯
 			request.setAttribute("errors", result);
 			request.getRequestDispatcher("/errors.jsp").forward(request, response);
-			return false;// ²»ÔÙÍùÏÂÖ´ĞĞ
-		} else { // Ëæºó½øĞĞÉÏ´«ÎÄ¼şÊÇ·ñºÏ·¨µÄÑéÖ¤
+			return false;// ä¸å†å¾€ä¸‹æ‰§è¡Œ
+		} else { // éšåè¿›è¡Œä¸Šä¼ æ–‡ä»¶æ˜¯å¦åˆæ³•çš„éªŒè¯
 			boolean validMime = MimeValidator.isValidMime(handlerMethod.getBean(), request);
-			if (!validMime) {// ÑéÖ¤Ê§°Ü
+			if (!validMime) {// éªŒè¯å¤±è´¥
 				result.put("file", MessageUtil.getMessage(handlerMethod.getBean(), "invalidate.file.mime.error.msg"));
 				request.setAttribute("errors", result);
 				request.getRequestDispatcher("/errors.jsp").forward(request, response);
-				return false;// ²»ÔÙÍùÏÂÖ´ĞĞ
+				return false;// ä¸å†å¾€ä¸‹æ‰§è¡Œ
 			}
 		}
 
-		return true;// Èç¹û²»·µ»Øtrue±íÊ¾½ØÍ££¬²»Ö´ĞĞºóĞø¿ØÖÆ²ã²Ù×÷
+		return true;// å¦‚æœä¸è¿”å›trueè¡¨ç¤ºæˆªåœï¼Œä¸æ‰§è¡Œåç»­æ§åˆ¶å±‚æ“ä½œ
 	}
 
 	@Override

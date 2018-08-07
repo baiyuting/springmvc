@@ -16,11 +16,11 @@ public class ValidatorRules {
 	/**
 	 * 
 	 * @param object
-	 *            µ±Ç°ÒªÖ´ĞĞ²Ù×÷µÄ Action ³ÌĞòÀà
+	 *            å½“å‰è¦æ‰§è¡Œæ“ä½œçš„ Action ç¨‹åºç±»
 	 * @param rules
-	 *            ËùÓĞµÄÑéÖ¤¹æÔò
+	 *            æ‰€æœ‰çš„éªŒè¯è§„åˆ™
 	 * @param request
-	 *            ½øĞĞ²ÎÊıµÄ½ÓÊÕ´¦Àí
+	 *            è¿›è¡Œå‚æ•°çš„æ¥æ”¶å¤„ç†
 	 */
 	public ValidatorRules(Object object, String[] rules, HttpServletRequest request) {
 		super();
@@ -30,7 +30,7 @@ public class ValidatorRules {
 	}
 
 	/**
-	 * ÊµÏÖ¾ßÌåµÄÑéÖ¤´¦Àí²Ù×÷
+	 * å®ç°å…·ä½“çš„éªŒè¯å¤„ç†æ“ä½œ
 	 * 
 	 * @return
 	 */

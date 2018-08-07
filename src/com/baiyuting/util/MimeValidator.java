@@ -14,31 +14,31 @@ import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 public class MimeValidator {
 
 	/**
-	 * ÊÇ·ñÊÇºÏ·¨µÄÉÏ´«ÎÄ¼ş
+	 * æ˜¯å¦æ˜¯åˆæ³•çš„ä¸Šä¼ æ–‡ä»¶
 	 * 
 	 * @param object
 	 * @param request
 	 * @return
 	 */
 	public static boolean isValidMime(Object object, HttpServletRequest request) {
-		// 1¡¢±ØĞëÈ·¶¨ÊÇ·ñÉÏ´«ÎÄ¼ş
-		MultipartResolver multipartResolver = new CommonsMultipartResolver();// ×¼±¸½øĞĞÉÏ´«ÎÄ¼şµÄ´¦Àí
+		// 1ã€å¿…é¡»ç¡®å®šæ˜¯å¦ä¸Šä¼ æ–‡ä»¶
+		MultipartResolver multipartResolver = new CommonsMultipartResolver();// å‡†å¤‡è¿›è¡Œä¸Šä¼ æ–‡ä»¶çš„å¤„ç†
 		if (multipartResolver.isMultipart(request)) {
 			String mimeContent = MessageUtil.getMessage(object, "mimeType");//
-			if (StringUtils.isBlank(mimeContent)) {// Ã»ÓĞ¹æÔò
+			if (StringUtils.isBlank(mimeContent)) {// æ²¡æœ‰è§„åˆ™
 				return true;
-			} else {// ĞèÒªÕë¶ÔÃ¿Ò»¸ö²Ù×÷½øĞĞ¹æÔòµÄÆ¥Åä¼ì²é
-				String mimeRules[] = mimeContent.split("\\|");// È¡³öÈ«²¿ÀàĞÍ
-				MultipartRequest multipartRequest = (MultipartRequest) request;// ´¦ÀíÉÏ´«µÄrequest
-				Map<String, MultipartFile> fileMap = multipartRequest.getFileMap();// ËùÓĞµÄÉÏ´«ÎÄ¼şÄÚÈİ
-				if (fileMap.size() > 0) {// µ±Ç°µÄ±íµ¥ÒÑ¾­¶¨ÒåÓĞÖ¸¶¨µÄÉÏ´«´¦Àí²Ù×÷
+			} else {// éœ€è¦é’ˆå¯¹æ¯ä¸€ä¸ªæ“ä½œè¿›è¡Œè§„åˆ™çš„åŒ¹é…æ£€æŸ¥
+				String mimeRules[] = mimeContent.split("\\|");// å–å‡ºå…¨éƒ¨ç±»å‹
+				MultipartRequest multipartRequest = (MultipartRequest) request;// å¤„ç†ä¸Šä¼ çš„request
+				Map<String, MultipartFile> fileMap = multipartRequest.getFileMap();// æ‰€æœ‰çš„ä¸Šä¼ æ–‡ä»¶å†…å®¹
+				if (fileMap.size() > 0) {// å½“å‰çš„è¡¨å•å·²ç»å®šä¹‰æœ‰æŒ‡å®šçš„ä¸Šä¼ å¤„ç†æ“ä½œ
 					Iterator<Map.Entry<String, MultipartFile>> iterator = fileMap.entrySet().iterator();
 					while (iterator.hasNext()) {
 						Map.Entry<String, MultipartFile> entry = iterator.next();
-						// System.out.println("²ÎÊıÃû³Æ£º" + entry.getKey() +
-						// "£¬ÎÄ¼ş´óĞ¡£º" + entry.getValue().getSize());
-						if (entry.getValue().getSize() > 0) {// ÏÖÔÚ±íµ¥ÓĞÎÄ¼şÉÏ´«£¬¾ÍĞèÒª½øĞĞÎÄ¼şÀàĞÍµÄÆ¥Åä
-							if (!ValidatorUtil.isValidMime(mimeRules, entry.getValue().getContentType())) {// Èç¹ûÓĞÒ»¸ö²»·ûºÏÒªÇó£¬·µ»Ø
+						// System.out.println("å‚æ•°åç§°ï¼š" + entry.getKey() +
+						// "ï¼Œæ–‡ä»¶å¤§å°ï¼š" + entry.getValue().getSize());
+						if (entry.getValue().getSize() > 0) {// ç°åœ¨è¡¨å•æœ‰æ–‡ä»¶ä¸Šä¼ ï¼Œå°±éœ€è¦è¿›è¡Œæ–‡ä»¶ç±»å‹çš„åŒ¹é…
+							if (!ValidatorUtil.isValidMime(mimeRules, entry.getValue().getContentType())) {// å¦‚æœæœ‰ä¸€ä¸ªä¸ç¬¦åˆè¦æ±‚ï¼Œè¿”å›
 																											// false
 								return false;
 							}
